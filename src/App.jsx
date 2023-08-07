@@ -13,8 +13,8 @@ function App() {
     <div>
       {/* <Background /> */}
       <Routes>
-        <Route path="/" element={<Background />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/background" element={<Background />} />
+        <Route path="/" element={<Home />} />
       </Routes>
         {/* <Main />
         <Biodata />
