@@ -1,0 +1,176 @@
+.biodataBgDefaultPos {
+    top: 0px;
+}
+
+.mainBgDefaultPos {
+    position: absolute;
+    /* top: calc(100vh - 279px); */
+    top: calc(100vh );
+}
+
+.mainBgMaxPos {
+    position: absolute;
+    /* top: calc(100vh - 279px); */
+    top: calc(300vh );
+}
+
+.contactBgDefaultPos {
+    top: calc(400vh );
+}
+
+.biodataBG {
+    position: absolute;
+}
+
+.mainBG {
+    position: absolute;
+}
+
+.contactBG {
+    position: absolute;
+}
+
+.is-sticky {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+.container {
+    margin: 1rem;
+}
+
+.judul {
+    text-align: center;
+}
+
+.contact-card {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.contact-card h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-card p {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.contact-card svg {
+    margin-right: 10px;
+}
+
+.biodata-card {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.biodata-card img {
+    border-radius: 8px;
+    
+    margin-right: 40px;
+}
+
+.biodata-card p {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin: 20px 0;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.indented-text {
+    /* margin-left: -20px; Adjust the indentation as needed */
+    text-indent: 50px; /* Compensate for the margin to avoid double-indentation */
+}
+
+.slider-body {
+    padding: 50px;
+    justify-content: center;
+}
+
+.main-card {
+    min-height: 550px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin: 20px 10px;
+}
+.main-card img {
+    border-radius: 8px;
+    /* margin-right: 40px; */
+    justify-content: center;
+}
+
+.main-card .imgcls {
+    border-radius: 8px;
+    /* margin-right: 40px; */
+    place-items: center;
+}
+
+.main-card .tempat {
+    color: #fff;
+    display: flex;
+    /* align-items: center; */
+    text-align: justify;
+    /* margin: 10px 0; */
+    margin-top: 10px;
+    font-size: 20px;
+    /* justify-content: center; */
+}
+
+.main-card .job {
+    color: #fff;
+    display: flex;
+    /* align-items: center; */
+    text-align: justify;
+    /* margin: 5px 0; */
+    font-size: 18px;
+    /* justify-content: center; */
+}
+
+.main-card .framework {
+    color: #ccc;
+    display: flex;
+    /* align-items: center; */
+    text-align: justify;
+    /* margin: 10px 0; */
+    font-size: 14px;
+    /* justify-content: center; */
+}
+
+.main-card .detail {
+    color: #fff;
+    display: flex;
+    /* align-items: center; */
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 18px;
+    /* justify-content: center; */
+}
+
+.homePage {
+    max-height: 5005
+}
