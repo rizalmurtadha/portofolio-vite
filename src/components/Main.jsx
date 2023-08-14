@@ -37,7 +37,7 @@ const Main = () => {
     <div id='main'>
 
         <div className='w-full h-screen '>
-            <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 pt-20 text-center text-white'>Experience</h1>
+            <h1 className='sm:text-5xl text-4xl font-bold  pt-20 text-center text-white'>Experience</h1>
             <div className='slider-body'>
                 <Slider {...settings}>
                 <div>
@@ -80,7 +80,7 @@ const Main = () => {
         </div>
         
         <div className='w-full h-screen '>
-            <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 pt-20 text-center text-white'>Project</h1>
+            <h1 className='sm:text-5xl text-4xl font-bold  pt-20 text-center text-white'>Project</h1>
             <div className='slider-body'>
                 <Slider {...settings}>
                 <div>
@@ -133,7 +133,7 @@ const Main = () => {
         </div>
 
         <div className='w-full h-screen  '>
-            <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 pt-20 text-center pb-10 text-white'>Skill</h1>
+            <h1 className='sm:text-5xl text-4xl font-bold  pt-20 text-center pb-10 text-white'>Skill</h1>
             <div className='max-w-[900px] m-auto justify-center h-full pt-20'>
                 <div className='flex justify-between pt-6  w-full'>
                     {/* <Tooltip title="Python"> */}
