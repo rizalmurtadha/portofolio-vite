@@ -47,6 +47,7 @@
 
 .contact-card {
     /* border: 1px solid #ccc; */
+    color: white;
     padding: 20px;
     border-radius: 8px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
@@ -109,6 +110,7 @@
 }
 
 .main-card {
+    background-color: rgba(255, 0, 191, 0.089);
     min-height: 550px;
     border: 1px solid #ccc;
     padding: 20px;
@@ -152,7 +154,7 @@
 }
 
 .main-card .framework {
-    color: #ccc;
+    color: #161616;
     display: flex;
     /* align-items: center; */
     text-align: justify;
@@ -173,4 +175,61 @@
 
 .homePage {
     max-height: 5005
+}
+
+.transparent-table {
+    background-color: rgba(255, 255, 255, 0.5); /* rgba(R, G, B, A) */
+    width: 100%;
+}
+
+.transparent-table thead th,
+.transparent-table tbody td {
+  background-color: transparent; /* Reset background for table cells */
+  max-height: 48px;
+}
+
+.transparent-table tbody tr {
+    max-height: 48px;
+}
+
+.control-page {
+    width: 100%;
+}
+
+.control-page p {
+    margin: 0 20px;
+    text-align: left;
+}
+
+.delete-button {
+    color: rgb(212, 0, 0);
+}
+
+.add-button {
+    color: rgb(0, 167, 56);
+}
+
+
+.table-container {
+    /* min-height: 1000px; */
+    overflow-y: auto; /* Add a scrollbar if needed */
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container thead th,
+.table-container tbody td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    max-height: 48px; /* Set maximum height for table cells */
+    height: 48px;
+    min-height: 48px;
+    overflow: hidden;
+}
+
+.input-checkbox {
+    margin-left: 20px;
 }

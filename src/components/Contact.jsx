@@ -11,7 +11,7 @@ const Contact = () => {
         <div id='contact2'  ref={contactRef}>
             <div className='w-full h-screen  '>
                 <div className=' m-0  flex flex-col  lg:items-center items-center '>
-                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 pt-20'>Contact</h1>
+                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 pt-20 text-white'>Contact</h1>
                     <ContactCard
                         name="Muhammad Rizal Murtadha"
                         email="m.rizalmurtadha@gmail.com"

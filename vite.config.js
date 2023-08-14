@@ -4,4 +4,24 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // proxy: {
+  //   '/api': {
+  //     target: 'http://127.0.0.1:5000', // Replace with your Flask API domain
+  //     changeOrigin: true,
+  //     secure: false,
+  //     ws: true,
+  //     rewrite: (path) => path.replace(/^\/api/, ''),
+  //   },
+  // },
+  server: {
+    proxy: {
+      "/api": {
+        // target: "http://127.0.0.1:5000",
+        target : "http://3.25.67.194/",
+        changeOrigin: true,
+        secure: false,
+        rewrite: (path) => path.replace(/^\/api/, ""),
+      },
+    },
+  },
 })

@@ -6,6 +6,8 @@ import Background from './components/Background'
 import Home from './components/Home'
 
 import { Route, Routes } from "react-router-dom" 
+import Pagination from './components/Pagination'
+import 'react-tooltip/dist/react-tooltip.css'
 
 function App() {
   return (
@@ -15,11 +17,14 @@ function App() {
       <Routes>
         <Route path="/background" element={<Background />} />
         <Route path="/" element={<Home />} />
+        <Route path="/pagination" element={<Pagination />} />
       </Routes>
         {/* <Main />
         <Biodata />
         <Contact /> */}
         {/* <Background /> */}
+
+        {/* <Pagination /> */}
     </div>
 
   )
