@@ -14,7 +14,7 @@ import { TbBrandCSharp, TbBrandVite, TbBrandMysql } from "react-icons/tb"
 import BA from './../img/BASidang.png'
 import rekapNilai from './../img/RekapNilai.png'
 import setoran from './../img/SetoranHafalan1.png'
-import landing from './../img/Portofolio.png'
+import landing from './../img/porto.png'
 import crud from './../img/CRUD.png'
 import semburat from './../img/POS.png'
 import simulasi from './../img/Simulasi.png'
