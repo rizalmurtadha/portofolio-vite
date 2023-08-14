@@ -11,14 +11,13 @@ import { BiLogoReact, BiLogoFlask, BiLogoPostgresql } from "react-icons/bi";
 
 import { TbBrandCSharp, TbBrandVite, TbBrandMysql } from "react-icons/tb"
 
-import BA from '../img/BASidang.png'
-import rekapNilai from '../img/RekapNilai.png'
-import setoran from '../img/SetoranHafalan1.png'
-import landing from '../img/Portofolio.png'
-import crud from '../img/CRUD.png'
-import semburat from '../img/POS.png'
-import simulasi from '../img/Simulasi.png'
-// import siteBG from './../assets/site-bg.jpg'
+import BA from './../img/BASidang.png'
+import rekapNilai from './../img/RekapNilai.png'
+import setoran from './../img/SetoranHafalan1.png'
+import landing from './../img/Portofolio.png'
+import crud from './../img/CRUD.png'
+import semburat from './../img/POS.png'
+import simulasi from './../img/Simulasi.png'
 
 const Main = () => {
 
