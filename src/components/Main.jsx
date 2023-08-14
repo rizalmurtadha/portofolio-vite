@@ -15,9 +15,9 @@ import BA from './../img/BASidang.png'
 import rekapNilai from './../img/RekapNilai.png'
 import setoran from './../img/SetoranHafalan1.png'
 import landing from './../img/porto.png'
-import crud from './../img/CRUD.png'
-import semburat from './../img/POS.png'
-import simulasi from './../img/Simulasi.png'
+import crud from './../img/crudfo.png'
+import semburat from './../img/semburat.png'
+import simulasi from './../img/simulasiap.png'
 
 const Main = () => {
 
